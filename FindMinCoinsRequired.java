@@ -32,7 +32,6 @@ public class FindMinCoinsRequired{
 				coinsCount+=coins;
 				System.out.println(deno[ind]+" - "+coins+ifOne(coins));
 				amount=amount%deno[ind];
-				
 			}
 		}
 		System.out.println("Minumun No.Of Coins Required : "+coinsCount);
